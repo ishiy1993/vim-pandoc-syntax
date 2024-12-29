@@ -589,7 +589,7 @@ function! s:SetupPandocHighlights()
   hi pandocTitleBlock term=italic gui=italic
   hi link pandocTitleBlockTitle Directory
   hi link pandocAtxHeader Title
-  hi link pandocAtxStart Operator
+  hi link pandocAtxStart Title
   hi link pandocSetexHeader Title
   hi link pandocHeaderAttr Comment
   hi link pandocHeaderID Identifier
